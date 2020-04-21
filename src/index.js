@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Contador from './components/classes/Contador';
+
 // import Pai from './components/funcionais/Pai';
 
 // import ComponenteClasse from './components/classes/ComponenteClasse';
@@ -21,6 +23,7 @@ const elemento = document.getElementById('root');
 ReactDOM.render(
   <div>
 
+    <Contador numeroInicial={10} />
     {/* <ComponenteClasse valor="Sou um componente de classe"/> */}
 
     {/* <Pai /> */}
