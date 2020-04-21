@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Pai from './components/Pai';
+// import Pai from './components/funcionais/Pai';
+
+// import ComponenteClasse from './components/classes/ComponenteClasse';
 
 // import ComponenteComFuncao from './components/ComponenteComFuncao';
 
@@ -18,8 +20,10 @@ const elemento = document.getElementById('root');
 
 ReactDOM.render(
   <div>
-    <Pai />
 
+    {/* <ComponenteClasse valor="Sou um componente de classe"/> */}
+
+    {/* <Pai /> */}
     {/* <ComponenteComFuncao /> */}
     {/* <Familia sobrenome="Pereira">
       <Membro nome="André" />
